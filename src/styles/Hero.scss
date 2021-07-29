@@ -1,0 +1,25 @@
+.heroChild1 {
+  display: flex;
+  flex-direction: column;
+  img {
+    align-self: center;
+    width: 280px;
+    margin: 0px;
+  }
+  .btn {
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    width: 30%;
+  }
+}
+.heroChild2 {
+  .time {
+    div {
+      padding: 0px 20px;
+      span {
+        padding-left: 20px;
+      }
+    }
+  }
+}
