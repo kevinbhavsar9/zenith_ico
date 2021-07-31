@@ -27,7 +27,10 @@ export default function MediaCard() {
         ICO CRYPTO NEWS
       </h1>
       <div className="row ">
-        <Card style={{ background: "#2d2a40" }} className={classes.root}>
+        <Card
+          style={{ background: "#2d2a40", marginBottom: 23 }}
+          className={classes.root}
+        >
           <CardActionArea>
             <CardMedia
               className={classes.media}
@@ -64,7 +67,10 @@ export default function MediaCard() {
             </Button>
           </CardActions>
         </Card>
-        <Card style={{ background: "#2d2a40" }} className={classes.root}>
+        <Card
+          style={{ background: "#2d2a40", marginBottom: 23 }}
+          className={classes.root}
+        >
           <CardActionArea>
             <CardMedia
               className={classes.media}
@@ -101,7 +107,10 @@ export default function MediaCard() {
             </Button>
           </CardActions>
         </Card>
-        <Card style={{ background: "#2d2a40" }} className={classes.root}>
+        <Card
+          style={{ background: "#2d2a40", marginBottom: 23 }}
+          className={classes.root}
+        >
           <CardActionArea>
             <CardMedia
               className={classes.media}

@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Ico from "./components/Ico";
 import Footer from "./components/Footer";
 import MediaCard from "./components/icoNews";
+import "./styles/Mobile.scss";
 export default class App extends Component {
   constructor() {
     super();

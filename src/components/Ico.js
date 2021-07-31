@@ -4,8 +4,8 @@ import ico from "../assets/ico.png";
 class Ico extends Component {
   render() {
     return (
-      <div className="container py-5 row">
-        <div style={{ width: "45%" }}>
+      <div className="container py-5 row ico">
+        <div style={{ width: "45%" }} className="ico-child1">
           <h2 className="text-light">
             We’ve built a platform to do well out of stakeholders.
           </h2>
@@ -26,7 +26,7 @@ class Ico extends Component {
             Zenith TOKEN.
           </p>
         </div>
-        <div className="px-1">
+        <div className="px-1 ico-child2">
           <img src={ico} style={{ width: 550 }} />
         </div>
       </div>

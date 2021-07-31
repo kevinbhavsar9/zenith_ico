@@ -10,7 +10,7 @@ class Hero extends Component {
   render() {
     return (
       <div className="container py-1">
-        <div className="row">
+        <div className="row hero-cont">
           <div className="heroChild1 col">
             <img src={coin} />
             <h1 className="text-light">
