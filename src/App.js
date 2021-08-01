@@ -8,6 +8,7 @@ import Ico from "./components/Ico";
 import Footer from "./components/Footer";
 import MediaCard from "./components/icoNews";
 import "./styles/Mobile.scss";
+import Timeline from "./components/Timeline";
 export default class App extends Component {
   constructor() {
     super();
@@ -40,6 +41,7 @@ export default class App extends Component {
         <Hero />
         <Ico />
         <MediaCard />
+        <Timeline />
         <Partner />
         <Footer darkMode={darkMode} />
       </div>
