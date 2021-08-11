@@ -10,6 +10,11 @@ $h5: 18px;
 $p: 14px;
 $h1-res: 36px;
 $h2-res: 26px;
+#tsparticles {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
 #pop {
   position: absolute;
   top: 41px;
@@ -326,6 +331,14 @@ p {
 .row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  .col {
+    width: 45%;
+  }
+}
+.row-center {
+  display: flex;
+  justify-content: center;
   align-items: center;
   .col {
     width: 45%;
